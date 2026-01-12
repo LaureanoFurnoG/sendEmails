@@ -22,7 +22,7 @@ const sendEmail = async (req, res) => {
       html: `
         <div><b>Nombre:</b> ${inputForm1}</div>
         <div><b>Email:</b> ${inputForm2}</div>
-        <div><b>Asunto:</b> ${inputForm4}</div>
+        <div><b>Telefono:</b> ${inputForm4}</div>
         <div><b>Mensaje:</b> ${inputForm5}</div>
       `,
     });
